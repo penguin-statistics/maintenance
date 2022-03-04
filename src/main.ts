@@ -1,3 +1,4 @@
+import "./app.css";
 import { addMessages, getLocaleFromNavigator, init } from "svelte-i18n";
 import App from "./App.svelte";
 

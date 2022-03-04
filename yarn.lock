@@ -2,6 +2,70 @@
 # yarn lockfile v1
 
 
+"@babel/standalone@^7.17.2":
+  version "7.17.6"
+  resolved "https://registry.npmmirror.com/@babel/standalone/-/standalone-7.17.6.tgz#cb105f20916ab7e516074b44b71270c615f44499"
+  integrity sha512-rBBC7aZ4Q8UkMV4Wl6cAw8Wcgg7DcIG3pzo2n+W/FwmBRZB/q7yGpzE10VXpOmSj9/KW3L1pbDhPGI1oOrscgA==
+
+"@csstools/postcss-color-function@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.npmmirror.com/@csstools/postcss-color-function/-/postcss-color-function-1.0.2.tgz#0843fe19be08eeb22e5d2242a6ac06f8b87b9ed2"
+  integrity sha512-uayvFqfa0hITPwVduxRYNL9YBD/anTqula0tu2llalaxblEd7QPuETSN3gB5PvTYxSfd0d8kS4Fypgo5JaUJ6A==
+  dependencies:
+    "@csstools/postcss-progressive-custom-properties" "^1.1.0"
+    postcss-value-parser "^4.2.0"
+
+"@csstools/postcss-font-format-keywords@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/@csstools/postcss-font-format-keywords/-/postcss-font-format-keywords-1.0.0.tgz#7e7df948a83a0dfb7eb150a96e2390ac642356a1"
+  integrity sha512-oO0cZt8do8FdVBX8INftvIA4lUrKUSCcWUf9IwH9IPWOgKT22oAZFXeHLoDK7nhB2SmkNycp5brxfNMRLIhd6Q==
+  dependencies:
+    postcss-value-parser "^4.2.0"
+
+"@csstools/postcss-hwb-function@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/@csstools/postcss-hwb-function/-/postcss-hwb-function-1.0.0.tgz#d6785c1c5ba8152d1d392c66f3a6a446c6034f6d"
+  integrity sha512-VSTd7hGjmde4rTj1rR30sokY3ONJph1reCBTUXqeW1fKwETPy1x4t/XIeaaqbMbC5Xg4SM/lyXZ2S8NELT2TaA==
+  dependencies:
+    postcss-value-parser "^4.2.0"
+
+"@csstools/postcss-ic-unit@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/@csstools/postcss-ic-unit/-/postcss-ic-unit-1.0.0.tgz#f484db59fc94f35a21b6d680d23b0ec69b286b7f"
+  integrity sha512-i4yps1mBp2ijrx7E96RXrQXQQHm6F4ym1TOD0D69/sjDjZvQ22tqiEvaNw7pFZTUO5b9vWRHzbHzP9+UKuw+bA==
+  dependencies:
+    "@csstools/postcss-progressive-custom-properties" "^1.1.0"
+    postcss-value-parser "^4.2.0"
+
+"@csstools/postcss-is-pseudo-class@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.npmmirror.com/@csstools/postcss-is-pseudo-class/-/postcss-is-pseudo-class-2.0.0.tgz#219a1c1d84de7d9e9b7e662a57fdc194eac38ea7"
+  integrity sha512-WnfZlyuh/CW4oS530HBbrKq0G8BKl/bsNr5NMFoubBFzJfvFRGJhplCgIJYWUidLuL3WJ/zhMtDIyNFTqhx63Q==
+  dependencies:
+    postcss-selector-parser "^6.0.9"
+
+"@csstools/postcss-normalize-display-values@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/@csstools/postcss-normalize-display-values/-/postcss-normalize-display-values-1.0.0.tgz#ce698f688c28517447aedf15a9037987e3d2dc97"
+  integrity sha512-bX+nx5V8XTJEmGtpWTO6kywdS725t71YSLlxWt78XoHUbELWgoCXeOFymRJmL3SU1TLlKSIi7v52EWqe60vJTQ==
+  dependencies:
+    postcss-value-parser "^4.2.0"
+
+"@csstools/postcss-oklab-function@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.npmmirror.com/@csstools/postcss-oklab-function/-/postcss-oklab-function-1.0.1.tgz#a12348eae202d4ded908a06aa92cf19a946b6cec"
+  integrity sha512-Bnly2FWWSTZX20hDJLYHpurhp1ot+ZGvojLOsrHa9frzOVruOv4oPYMZ6wQomi9KsbZZ+Af/CuRYaGReTyGtEg==
+  dependencies:
+    "@csstools/postcss-progressive-custom-properties" "^1.1.0"
+    postcss-value-parser "^4.2.0"
+
+"@csstools/postcss-progressive-custom-properties@^1.1.0", "@csstools/postcss-progressive-custom-properties@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.npmmirror.com/@csstools/postcss-progressive-custom-properties/-/postcss-progressive-custom-properties-1.2.0.tgz#7d53b773de50874c3885918dcb10cac97bf66ed5"
+  integrity sha512-YLpFPK5OaLIRKZhUfnrZPT9s9cmtqltIOg7W6jPcxmiDpnZ4lk+odfufZttOAgcg6IHWvNLgcITSLpJxIQB/qQ==
+  dependencies:
+    postcss-value-parser "^4.2.0"
+
 "@formatjs/ecma402-abstract@1.11.3":
   version "1.11.3"
   resolved "https://registry.npmmirror.com/@formatjs/ecma402-abstract/-/ecma402-abstract-1.11.3.tgz#f25276dfd4ef3dac90da667c3961d8aa9732e384"
@@ -103,6 +167,17 @@
   dependencies:
     "@types/node" "*"
 
+"@vitejs/plugin-legacy@^1.7.1":
+  version "1.7.1"
+  resolved "https://registry.npmmirror.com/@vitejs/plugin-legacy/-/plugin-legacy-1.7.1.tgz#6236d2f5ea5f11f6406070bb69e700e781f86125"
+  integrity sha512-RqgILXsGpfV7NHodVCdBVau8ss5+ynMXp6JGF/F7nhSy0bnwSQPlMS3KFqh7twfifXK8VuMriqfU4CxOiqmNnA==
+  dependencies:
+    "@babel/standalone" "^7.17.2"
+    core-js "^3.21.0"
+    magic-string "^0.25.7"
+    regenerator-runtime "^0.13.9"
+    systemjs "^6.12.1"
+
 anymatch@~3.1.2:
   version "3.1.2"
   resolved "https://registry.npmmirror.com/anymatch/-/anymatch-3.1.2.tgz#c0557c096af32f106198f4f4e2a383537e378716"
@@ -110,6 +185,18 @@ anymatch@~3.1.2:
   dependencies:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
+
+autoprefixer@^10.4.2:
+  version "10.4.2"
+  resolved "https://registry.npmmirror.com/autoprefixer/-/autoprefixer-10.4.2.tgz#25e1df09a31a9fba5c40b578936b90d35c9d4d3b"
+  integrity sha512-9fOPpHKuDW1w/0EKfRmVnxTDt8166MAnLI3mgZ1JCnhNtYWxcJ6Ud5CO/AVOZi/AvFa8DY9RTy3h3+tFBlrrdQ==
+  dependencies:
+    browserslist "^4.19.1"
+    caniuse-lite "^1.0.30001297"
+    fraction.js "^4.1.2"
+    normalize-range "^0.1.2"
+    picocolors "^1.0.0"
+    postcss-value-parser "^4.2.0"
 
 balanced-match@^1.0.0:
   version "1.0.2"
@@ -136,6 +223,17 @@ braces@^3.0.1, braces@~3.0.2:
   dependencies:
     fill-range "^7.0.1"
 
+browserslist@^4.19.1, browserslist@^4.19.3:
+  version "4.19.3"
+  resolved "https://registry.npmmirror.com/browserslist/-/browserslist-4.19.3.tgz#29b7caad327ecf2859485f696f9604214bedd383"
+  integrity sha512-XK3X4xtKJ+Txj8G5c30B4gsm71s69lqXlkYui4s6EkKxuv49qjYlY6oVd+IFJ73d4YymtM3+djvvt/R/iJwwDg==
+  dependencies:
+    caniuse-lite "^1.0.30001312"
+    electron-to-chromium "^1.4.71"
+    escalade "^3.1.1"
+    node-releases "^2.0.2"
+    picocolors "^1.0.0"
+
 buffer-crc32@^0.2.5:
   version "0.2.13"
   resolved "https://registry.npmmirror.com/buffer-crc32/-/buffer-crc32-0.2.13.tgz#0d333e3f00eac50aa1454abd30ef8c2a5d9a7242"
@@ -145,6 +243,11 @@ callsites@^3.0.0:
   version "3.1.0"
   resolved "https://registry.npmmirror.com/callsites/-/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
+
+caniuse-lite@^1.0.30001297, caniuse-lite@^1.0.30001312:
+  version "1.0.30001313"
+  resolved "https://registry.npmmirror.com/caniuse-lite/-/caniuse-lite-1.0.30001313.tgz#a380b079db91621e1b7120895874e2fd62ed2e2f"
+  integrity sha512-rI1UN0koZUiKINjysQDuRi2VeSCce3bYJNmDcj3PIKREiAmjakugBul1QSkg/fPrlULYl6oWfGg3PbgOSY9X4Q==
 
 chokidar@^3.4.1:
   version "3.5.3"
@@ -166,6 +269,40 @@ concat-map@0.0.1:
   resolved "https://registry.npmmirror.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
+core-js@^3.21.0:
+  version "3.21.1"
+  resolved "https://registry.npmmirror.com/core-js/-/core-js-3.21.1.tgz#f2e0ddc1fc43da6f904706e8e955bc19d06a0d94"
+  integrity sha512-FRq5b/VMrWlrmCzwRrpDYNxyHP9BcAZC+xHJaqTgIE5091ZV1NTmyh0sGOg5XqpnHvR0svdy0sv1gWA1zmhxig==
+
+css-blank-pseudo@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.npmmirror.com/css-blank-pseudo/-/css-blank-pseudo-3.0.3.tgz#36523b01c12a25d812df343a32c322d2a2324561"
+  integrity sha512-VS90XWtsHGqoM0t4KpH053c4ehxZ2E6HtGI7x68YFV0pTo/QmkV/YFA+NnlvK8guxZVNWGQhVNJGC39Q8XF4OQ==
+  dependencies:
+    postcss-selector-parser "^6.0.9"
+
+css-has-pseudo@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.npmmirror.com/css-has-pseudo/-/css-has-pseudo-3.0.4.tgz#57f6be91ca242d5c9020ee3e51bbb5b89fc7af73"
+  integrity sha512-Vse0xpR1K9MNlp2j5w1pgWIJtm1a8qS0JwS9goFYcImjlHEmywP9VUF05aGBXzGpDJF86QXk4L0ypBmwPhGArw==
+  dependencies:
+    postcss-selector-parser "^6.0.9"
+
+css-prefers-color-scheme@^6.0.3:
+  version "6.0.3"
+  resolved "https://registry.npmmirror.com/css-prefers-color-scheme/-/css-prefers-color-scheme-6.0.3.tgz#ca8a22e5992c10a5b9d315155e7caee625903349"
+  integrity sha512-4BqMbZksRkJQx2zAjrokiGMd07RqOa2IxIrrN10lyBe9xhn9DEvjUK79J6jkeiv9D9hQFXKb6g1jwU62jziJZA==
+
+cssdb@^6.4.0:
+  version "6.4.0"
+  resolved "https://registry.npmmirror.com/cssdb/-/cssdb-6.4.0.tgz#54899b9042e302be3090b8510ea71fefd08c9e6b"
+  integrity sha512-8NMWrur/ewSNrRNZndbtOTXc2Xb2b+NCTPHj8VErFYvJUlgsMAiBGaFaxG6hjy9zbCjj2ZLwSQrMM+tormO8qA==
+
+cssesc@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmmirror.com/cssesc/-/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
+  integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
+
 debug@^4.3.3:
   version "4.3.3"
   resolved "https://registry.npmmirror.com/debug/-/debug-4.3.3.tgz#04266e0b70a98d4462e6e288e38259213332b664"
@@ -182,6 +319,11 @@ detect-indent@^6.0.0:
   version "6.1.0"
   resolved "https://registry.npmmirror.com/detect-indent/-/detect-indent-6.1.0.tgz#592485ebbbf6b3b1ab2be175c8393d04ca0d57e6"
   integrity sha512-reYkTUJAZb9gUuZ2RvVCNhVHdg62RHnJ7WJl8ftMi4diZ6NWlciOzQN88pUhSELEwflJht4oQDv0F0BMlwaYtA==
+
+electron-to-chromium@^1.4.71:
+  version "1.4.75"
+  resolved "https://registry.npmmirror.com/electron-to-chromium/-/electron-to-chromium-1.4.75.tgz#d1ad9bb46f2f1bf432118c2be21d27ffeae82fdd"
+  integrity sha512-LxgUNeu3BVU7sXaKjUDD9xivocQLxFtq6wgERrutdY/yIOps3ODOZExK1jg8DTEg4U8TUCb5MLGeWFOYuxjF3Q==
 
 es6-promise@^3.1.2:
   version "3.3.1"
@@ -308,6 +450,11 @@ esbuild@^0.14.14:
     esbuild-windows-64 "0.14.23"
     esbuild-windows-arm64 "0.14.23"
 
+escalade@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.npmmirror.com/escalade/-/escalade-3.1.1.tgz#d8cfdc7000965c5a0174b4a82eaa5c0552742e40"
+  integrity sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==
+
 estree-walker@^2.0.1:
   version "2.0.2"
   resolved "https://registry.npmmirror.com/estree-walker/-/estree-walker-2.0.2.tgz#52f010178c2a4c117a7757cfe942adb7d2da4cac"
@@ -337,6 +484,11 @@ fill-range@^7.0.1:
   integrity sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==
   dependencies:
     to-regex-range "^5.0.1"
+
+fraction.js@^4.1.2:
+  version "4.1.3"
+  resolved "https://registry.npmmirror.com/fraction.js/-/fraction.js-4.1.3.tgz#be65b0f20762ef27e1e793860bc2dfb716e99e65"
+  integrity sha512-pUHWWt6vHzZZiQJcM6S/0PXfS+g6FM4BF5rj9wZyreivhQPdsh5PpE25VtSNxq80wHS5RfY51Ii+8Z0Zl/pmzg==
 
 fs.realpath@^1.0.0:
   version "1.0.0"
@@ -461,6 +613,11 @@ kleur@^4.1.4:
   resolved "https://registry.npmmirror.com/kleur/-/kleur-4.1.4.tgz#8c202987d7e577766d039a8cd461934c01cda04d"
   integrity sha512-8QADVssbrFjivHWQU7KkMgptGTl6WAcSdlbBPY4uNF+mWr6DGcKrvY2w4FQJoXch7+fKMjj0dRrL75vk3k23OA==
 
+lilconfig@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.npmmirror.com/lilconfig/-/lilconfig-2.0.4.tgz#f4507d043d7058b380b6a8f5cb7bcd4b34cee082"
+  integrity sha512-bfTIN7lEsiooCocSISTWXkiWJkRqtL9wYtYy+8EK3Y41qh3mpwPU0ycTOgjdY9ErwXCc8QyrQp82bdL0Xkm9yA==
+
 magic-string@^0.25.7:
   version "0.25.8"
   resolved "https://registry.npmmirror.com/magic-string/-/magic-string-0.25.8.tgz#9ee85aabefa5135cf8d80e96adc83b595ae2c5e0"
@@ -520,10 +677,20 @@ nanoid@^3.3.1:
   resolved "https://registry.npmmirror.com/nanoid/-/nanoid-3.3.1.tgz#6347a18cac88af88f58af0b3594b723d5e99bb35"
   integrity sha512-n6Vs/3KGyxPQd6uO0eH4Bv0ojGSUvuLlIHtC3Y0kEO23YRge8H9x1GCzLn28YX0H66pMkxuaeESFq4tKISKwdw==
 
+node-releases@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.npmmirror.com/node-releases/-/node-releases-2.0.2.tgz#7139fe71e2f4f11b47d4d2986aaf8c48699e0c01"
+  integrity sha512-XxYDdcQ6eKqp/YjI+tb2C5WM2LgjnZrfYg4vgQt49EK268b6gYCHsBLrK2qvJo4FmCtqmKezb0WZFK4fkrZNsg==
+
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
   resolved "https://registry.npmmirror.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
+
+normalize-range@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.npmmirror.com/normalize-range/-/normalize-range-0.1.2.tgz#2d10c06bdfd312ea9777695a4d28439456b75942"
+  integrity sha512-bdok/XvKII3nUpklnV6P2hxtMNrCboOjAcyBuQnWEhO665FwrSNRxU+AqpsyvO6LgGYPspN+lu5CLtw4jPRKNA==
 
 once@^1.3.0:
   version "1.4.0"
@@ -559,7 +726,247 @@ picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.2, picomatch@^2.2.3:
   resolved "https://registry.npmmirror.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
-postcss@^8.4.6:
+postcss-attribute-case-insensitive@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmmirror.com/postcss-attribute-case-insensitive/-/postcss-attribute-case-insensitive-5.0.0.tgz#39cbf6babf3ded1e4abf37d09d6eda21c644105c"
+  integrity sha512-b4g9eagFGq9T5SWX4+USfVyjIb3liPnjhHHRMP7FMB2kFVpYyfEscV0wP3eaXhKlcHKUut8lt5BGoeylWA/dBQ==
+  dependencies:
+    postcss-selector-parser "^6.0.2"
+
+postcss-color-functional-notation@^4.2.2:
+  version "4.2.2"
+  resolved "https://registry.npmmirror.com/postcss-color-functional-notation/-/postcss-color-functional-notation-4.2.2.tgz#f59ccaeb4ee78f1b32987d43df146109cc743073"
+  integrity sha512-DXVtwUhIk4f49KK5EGuEdgx4Gnyj6+t2jBSEmxvpIK9QI40tWrpS2Pua8Q7iIZWBrki2QOaeUdEaLPPa91K0RQ==
+  dependencies:
+    postcss-value-parser "^4.2.0"
+
+postcss-color-hex-alpha@^8.0.3:
+  version "8.0.3"
+  resolved "https://registry.npmmirror.com/postcss-color-hex-alpha/-/postcss-color-hex-alpha-8.0.3.tgz#61a0fd151d28b128aa6a8a21a2dad24eebb34d52"
+  integrity sha512-fESawWJCrBV035DcbKRPAVmy21LpoyiXdPTuHUfWJ14ZRjY7Y7PA6P4g8z6LQGYhU1WAxkTxjIjurXzoe68Glw==
+  dependencies:
+    postcss-value-parser "^4.2.0"
+
+postcss-color-rebeccapurple@^7.0.2:
+  version "7.0.2"
+  resolved "https://registry.npmmirror.com/postcss-color-rebeccapurple/-/postcss-color-rebeccapurple-7.0.2.tgz#5d397039424a58a9ca628762eb0b88a61a66e079"
+  integrity sha512-SFc3MaocHaQ6k3oZaFwH8io6MdypkUtEy/eXzXEB1vEQlO3S3oDc/FSZA8AsS04Z25RirQhlDlHLh3dn7XewWw==
+  dependencies:
+    postcss-value-parser "^4.2.0"
+
+postcss-custom-media@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.npmmirror.com/postcss-custom-media/-/postcss-custom-media-8.0.0.tgz#1be6aff8be7dc9bf1fe014bde3b71b92bb4552f1"
+  integrity sha512-FvO2GzMUaTN0t1fBULDeIvxr5IvbDXcIatt6pnJghc736nqNgsGao5NT+5+WVLAQiTt6Cb3YUms0jiPaXhL//g==
+
+postcss-custom-properties@^12.1.4:
+  version "12.1.4"
+  resolved "https://registry.npmmirror.com/postcss-custom-properties/-/postcss-custom-properties-12.1.4.tgz#e3d8a8000f28094453b836dff5132385f2862285"
+  integrity sha512-i6AytuTCoDLJkWN/MtAIGriJz3j7UX6bV7Z5t+KgFz+dwZS15/mlTJY1S0kRizlk6ba0V8u8hN50Fz5Nm7tdZw==
+  dependencies:
+    postcss-value-parser "^4.2.0"
+
+postcss-custom-selectors@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.npmmirror.com/postcss-custom-selectors/-/postcss-custom-selectors-6.0.0.tgz#022839e41fbf71c47ae6e316cb0e6213012df5ef"
+  integrity sha512-/1iyBhz/W8jUepjGyu7V1OPcGbc636snN1yXEQCinb6Bwt7KxsiU7/bLQlp8GwAXzCh7cobBU5odNn/2zQWR8Q==
+  dependencies:
+    postcss-selector-parser "^6.0.4"
+
+postcss-dir-pseudo-class@^6.0.4:
+  version "6.0.4"
+  resolved "https://registry.npmmirror.com/postcss-dir-pseudo-class/-/postcss-dir-pseudo-class-6.0.4.tgz#9afe49ea631f0cb36fa0076e7c2feb4e7e3f049c"
+  integrity sha512-I8epwGy5ftdzNWEYok9VjW9whC4xnelAtbajGv4adql4FIF09rnrxnA9Y8xSHN47y7gqFIv10C5+ImsLeJpKBw==
+  dependencies:
+    postcss-selector-parser "^6.0.9"
+
+postcss-double-position-gradients@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.npmmirror.com/postcss-double-position-gradients/-/postcss-double-position-gradients-3.1.0.tgz#a8614fb3a2a4b8877bffb8961b770e00322bbad1"
+  integrity sha512-oz73I08yMN3oxjj0s8mED1rG+uOYoK3H8N9RjQofyg52KBRNmePJKg3fVwTpL2U5ZFbCzXoZBsUD/CvZdlqE4Q==
+  dependencies:
+    "@csstools/postcss-progressive-custom-properties" "^1.1.0"
+    postcss-value-parser "^4.2.0"
+
+postcss-env-function@^4.0.5:
+  version "4.0.5"
+  resolved "https://registry.npmmirror.com/postcss-env-function/-/postcss-env-function-4.0.5.tgz#b9614d50abd91e4c88a114644a9766880dabe393"
+  integrity sha512-gPUJc71ji9XKyl0WSzAalBeEA/89kU+XpffpPxSaaaZ1c48OL36r1Ep5R6+9XAPkIiDlSvVAwP4io12q/vTcvA==
+  dependencies:
+    postcss-value-parser "^4.2.0"
+
+postcss-focus-visible@^6.0.4:
+  version "6.0.4"
+  resolved "https://registry.npmmirror.com/postcss-focus-visible/-/postcss-focus-visible-6.0.4.tgz#50c9ea9afa0ee657fb75635fabad25e18d76bf9e"
+  integrity sha512-QcKuUU/dgNsstIK6HELFRT5Y3lbrMLEOwG+A4s5cA+fx3A3y/JTq3X9LaOj3OC3ALH0XqyrgQIgey/MIZ8Wczw==
+  dependencies:
+    postcss-selector-parser "^6.0.9"
+
+postcss-focus-within@^5.0.4:
+  version "5.0.4"
+  resolved "https://registry.npmmirror.com/postcss-focus-within/-/postcss-focus-within-5.0.4.tgz#5b1d2ec603195f3344b716c0b75f61e44e8d2e20"
+  integrity sha512-vvjDN++C0mu8jz4af5d52CB184ogg/sSxAFS+oUJQq2SuCe7T5U2iIsVJtsCp2d6R4j0jr5+q3rPkBVZkXD9fQ==
+  dependencies:
+    postcss-selector-parser "^6.0.9"
+
+postcss-font-variant@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmmirror.com/postcss-font-variant/-/postcss-font-variant-5.0.0.tgz#efd59b4b7ea8bb06127f2d031bfbb7f24d32fa66"
+  integrity sha512-1fmkBaCALD72CK2a9i468mA/+tr9/1cBxRRMXOUaZqO43oWPR5imcyPjXwuv7PXbCid4ndlP5zWhidQVVa3hmA==
+
+postcss-gap-properties@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.npmmirror.com/postcss-gap-properties/-/postcss-gap-properties-3.0.3.tgz#6401bb2f67d9cf255d677042928a70a915e6ba60"
+  integrity sha512-rPPZRLPmEKgLk/KlXMqRaNkYTUpE7YC+bOIQFN5xcu1Vp11Y4faIXv6/Jpft6FMnl6YRxZqDZG0qQOW80stzxQ==
+
+postcss-image-set-function@^4.0.6:
+  version "4.0.6"
+  resolved "https://registry.npmmirror.com/postcss-image-set-function/-/postcss-image-set-function-4.0.6.tgz#bcff2794efae778c09441498f40e0c77374870a9"
+  integrity sha512-KfdC6vg53GC+vPd2+HYzsZ6obmPqOk6HY09kttU19+Gj1nC3S3XBVEXDHxkhxTohgZqzbUb94bKXvKDnYWBm/A==
+  dependencies:
+    postcss-value-parser "^4.2.0"
+
+postcss-initial@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.npmmirror.com/postcss-initial/-/postcss-initial-4.0.1.tgz#529f735f72c5724a0fb30527df6fb7ac54d7de42"
+  integrity sha512-0ueD7rPqX8Pn1xJIjay0AZeIuDoF+V+VvMt/uOnn+4ezUKhZM/NokDeP6DwMNyIoYByuN/94IQnt5FEkaN59xQ==
+
+postcss-lab-function@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.npmmirror.com/postcss-lab-function/-/postcss-lab-function-4.1.1.tgz#8b37dfcb9ca4ff82bbe7192c7ba3cc2bccbc0ef1"
+  integrity sha512-j3Z0WQCimY2tMle++YcmygnnVbt6XdnrCV1FO2IpzaCSmtTF2oO8h4ZYUA1Q+QHYroIiaWPvNHt9uBR4riCksQ==
+  dependencies:
+    "@csstools/postcss-progressive-custom-properties" "^1.1.0"
+    postcss-value-parser "^4.2.0"
+
+postcss-load-config@^3.1.1:
+  version "3.1.3"
+  resolved "https://registry.npmmirror.com/postcss-load-config/-/postcss-load-config-3.1.3.tgz#21935b2c43b9a86e6581a576ca7ee1bde2bd1d23"
+  integrity sha512-5EYgaM9auHGtO//ljHH+v/aC/TQ5LHXtL7bQajNAUBKUVKiYE8rYpFms7+V26D9FncaGe2zwCoPQsFKb5zF/Hw==
+  dependencies:
+    lilconfig "^2.0.4"
+    yaml "^1.10.2"
+
+postcss-logical@^5.0.4:
+  version "5.0.4"
+  resolved "https://registry.npmmirror.com/postcss-logical/-/postcss-logical-5.0.4.tgz#ec75b1ee54421acc04d5921576b7d8db6b0e6f73"
+  integrity sha512-RHXxplCeLh9VjinvMrZONq7im4wjWGlRJAqmAVLXyZaXwfDWP73/oq4NdIp+OZwhQUMj0zjqDfM5Fj7qby+B4g==
+
+postcss-media-minmax@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmmirror.com/postcss-media-minmax/-/postcss-media-minmax-5.0.0.tgz#7140bddec173e2d6d657edbd8554a55794e2a5b5"
+  integrity sha512-yDUvFf9QdFZTuCUg0g0uNSHVlJ5X1lSzDZjPSFaiCWvjgsvu8vEVxtahPrLMinIDEEGnx6cBe6iqdx5YWz08wQ==
+
+postcss-nesting@^10.1.2:
+  version "10.1.2"
+  resolved "https://registry.npmmirror.com/postcss-nesting/-/postcss-nesting-10.1.2.tgz#2e5f811b3d75602ea18a95dd445bde5297145141"
+  integrity sha512-dJGmgmsvpzKoVMtDMQQG/T6FSqs6kDtUDirIfl4KnjMCiY9/ETX8jdKyCd20swSRAbUYkaBKV20pxkzxoOXLqQ==
+  dependencies:
+    postcss-selector-parser "^6.0.8"
+
+postcss-opacity-percentage@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.npmmirror.com/postcss-opacity-percentage/-/postcss-opacity-percentage-1.1.2.tgz#bd698bb3670a0a27f6d657cc16744b3ebf3b1145"
+  integrity sha512-lyUfF7miG+yewZ8EAk9XUBIlrHyUE6fijnesuz+Mj5zrIHIEw6KcIZSOk/elVMqzLvREmXB83Zi/5QpNRYd47w==
+
+postcss-overflow-shorthand@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.npmmirror.com/postcss-overflow-shorthand/-/postcss-overflow-shorthand-3.0.3.tgz#ebcfc0483a15bbf1b27fdd9b3c10125372f4cbc2"
+  integrity sha512-CxZwoWup9KXzQeeIxtgOciQ00tDtnylYIlJBBODqkgS/PU2jISuWOL/mYLHmZb9ZhZiCaNKsCRiLp22dZUtNsg==
+
+postcss-page-break@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.npmmirror.com/postcss-page-break/-/postcss-page-break-3.0.4.tgz#7fbf741c233621622b68d435babfb70dd8c1ee5f"
+  integrity sha512-1JGu8oCjVXLa9q9rFTo4MbeeA5FMe00/9C7lN4va606Rdb+HkxXtXsmEDrIraQ11fGz/WvKWa8gMuCKkrXpTsQ==
+
+postcss-place@^7.0.4:
+  version "7.0.4"
+  resolved "https://registry.npmmirror.com/postcss-place/-/postcss-place-7.0.4.tgz#eb026650b7f769ae57ca4f938c1addd6be2f62c9"
+  integrity sha512-MrgKeiiu5OC/TETQO45kV3npRjOFxEHthsqGtkh3I1rPbZSbXGD/lZVi9j13cYh+NA8PIAPyk6sGjT9QbRyvSg==
+  dependencies:
+    postcss-value-parser "^4.2.0"
+
+postcss-preset-env@^7.4.2:
+  version "7.4.2"
+  resolved "https://registry.npmmirror.com/postcss-preset-env/-/postcss-preset-env-7.4.2.tgz#2ff3e4787bd9d89710659535855d6ce85ce6110b"
+  integrity sha512-AmOkb8AeNNQwE/z2fHl1iwOIt8J50V8WR0rmLagcgIDoqlJZWjV3NdtOPnLGco1oN8DZe+Ss5B9ULbBeS6HfeA==
+  dependencies:
+    "@csstools/postcss-color-function" "^1.0.2"
+    "@csstools/postcss-font-format-keywords" "^1.0.0"
+    "@csstools/postcss-hwb-function" "^1.0.0"
+    "@csstools/postcss-ic-unit" "^1.0.0"
+    "@csstools/postcss-is-pseudo-class" "^2.0.0"
+    "@csstools/postcss-normalize-display-values" "^1.0.0"
+    "@csstools/postcss-oklab-function" "^1.0.1"
+    "@csstools/postcss-progressive-custom-properties" "^1.2.0"
+    autoprefixer "^10.4.2"
+    browserslist "^4.19.3"
+    css-blank-pseudo "^3.0.3"
+    css-has-pseudo "^3.0.4"
+    css-prefers-color-scheme "^6.0.3"
+    cssdb "^6.4.0"
+    postcss-attribute-case-insensitive "^5.0.0"
+    postcss-color-functional-notation "^4.2.2"
+    postcss-color-hex-alpha "^8.0.3"
+    postcss-color-rebeccapurple "^7.0.2"
+    postcss-custom-media "^8.0.0"
+    postcss-custom-properties "^12.1.4"
+    postcss-custom-selectors "^6.0.0"
+    postcss-dir-pseudo-class "^6.0.4"
+    postcss-double-position-gradients "^3.1.0"
+    postcss-env-function "^4.0.5"
+    postcss-focus-visible "^6.0.4"
+    postcss-focus-within "^5.0.4"
+    postcss-font-variant "^5.0.0"
+    postcss-gap-properties "^3.0.3"
+    postcss-image-set-function "^4.0.6"
+    postcss-initial "^4.0.1"
+    postcss-lab-function "^4.1.1"
+    postcss-logical "^5.0.4"
+    postcss-media-minmax "^5.0.0"
+    postcss-nesting "^10.1.2"
+    postcss-opacity-percentage "^1.1.2"
+    postcss-overflow-shorthand "^3.0.3"
+    postcss-page-break "^3.0.4"
+    postcss-place "^7.0.4"
+    postcss-pseudo-class-any-link "^7.1.1"
+    postcss-replace-overflow-wrap "^4.0.0"
+    postcss-selector-not "^5.0.0"
+    postcss-value-parser "^4.2.0"
+
+postcss-pseudo-class-any-link@^7.1.1:
+  version "7.1.1"
+  resolved "https://registry.npmmirror.com/postcss-pseudo-class-any-link/-/postcss-pseudo-class-any-link-7.1.1.tgz#534eb1dadd9945eb07830dbcc06fb4d5d865b8e0"
+  integrity sha512-JRoLFvPEX/1YTPxRxp1JO4WxBVXJYrSY7NHeak5LImwJ+VobFMwYDQHvfTXEpcn+7fYIeGkC29zYFhFWIZD8fg==
+  dependencies:
+    postcss-selector-parser "^6.0.9"
+
+postcss-replace-overflow-wrap@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmmirror.com/postcss-replace-overflow-wrap/-/postcss-replace-overflow-wrap-4.0.0.tgz#d2df6bed10b477bf9c52fab28c568b4b29ca4319"
+  integrity sha512-KmF7SBPphT4gPPcKZc7aDkweHiKEEO8cla/GjcBK+ckKxiZslIu3C4GCRW3DNfL0o7yW7kMQu9xlZ1kXRXLXtw==
+
+postcss-selector-not@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmmirror.com/postcss-selector-not/-/postcss-selector-not-5.0.0.tgz#ac5fc506f7565dd872f82f5314c0f81a05630dc7"
+  integrity sha512-/2K3A4TCP9orP4TNS7u3tGdRFVKqz/E6pX3aGnriPG0jU78of8wsUcqE4QAhWEU0d+WnMSF93Ah3F//vUtK+iQ==
+  dependencies:
+    balanced-match "^1.0.0"
+
+postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.4, postcss-selector-parser@^6.0.8, postcss-selector-parser@^6.0.9:
+  version "6.0.9"
+  resolved "https://registry.npmmirror.com/postcss-selector-parser/-/postcss-selector-parser-6.0.9.tgz#ee71c3b9ff63d9cd130838876c13a2ec1a992b2f"
+  integrity sha512-UO3SgnZOVTwu4kyLR22UQ1xZh086RyNZppb7lLAKBFK8a32ttG5i87Y/P3+2bRSjZNyJ1B7hfFNo273tKe9YxQ==
+  dependencies:
+    cssesc "^3.0.0"
+    util-deprecate "^1.0.2"
+
+postcss-value-parser@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.npmmirror.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
+  integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
+
+postcss@^8.4.5, postcss@^8.4.6:
   version "8.4.7"
   resolved "https://registry.npmmirror.com/postcss/-/postcss-8.4.7.tgz#f99862069ec4541de386bf57f5660a6c7a0875a8"
   integrity sha512-L9Ye3r6hkkCeOETQX6iOaWZgjp3LL6Lpqm6EtgbKrgqGGteRMNb9vzBfRL96YOSu8o7x3MfIH9Mo5cPJFGrW6A==
@@ -579,6 +986,11 @@ readdirp@~3.6.0:
   integrity sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==
   dependencies:
     picomatch "^2.2.1"
+
+regenerator-runtime@^0.13.9:
+  version "0.13.9"
+  resolved "https://registry.npmmirror.com/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz#8925742a98ffd90814988d7566ad30ca3b263b52"
+  integrity sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==
 
 resolve-from@^4.0.0:
   version "4.0.0"
@@ -705,7 +1117,7 @@ svelte-i18n@^3.3.13:
     sade "^1.7.4"
     tiny-glob "^0.2.6"
 
-svelte-preprocess@^4.0.0, svelte-preprocess@^4.9.8:
+svelte-preprocess@^4.0.0, svelte-preprocess@^4.10.1:
   version "4.10.4"
   resolved "https://registry.npmmirror.com/svelte-preprocess/-/svelte-preprocess-4.10.4.tgz#308a410266bfc55b4e608da8d552b63580141260"
   integrity sha512-fuwol0N4UoHsNQolLFbMqWivqcJ9N0vfWO9IuPAiX/5okfoGXURyJ6nECbuEIv0nU3M8Xe2I1ONNje2buk7l6A==
@@ -721,6 +1133,11 @@ svelte@^3.44.0:
   version "3.46.4"
   resolved "https://registry.npmmirror.com/svelte/-/svelte-3.46.4.tgz#0c46bc4a3e20a2617a1b7dc43a722f9d6c084a38"
   integrity sha512-qKJzw6DpA33CIa+C/rGp4AUdSfii0DOTCzj/2YpSKKayw5WGSS624Et9L1nU1k2OVRS9vaENQXp2CVZNU+xvIg==
+
+systemjs@^6.12.1:
+  version "6.12.1"
+  resolved "https://registry.npmmirror.com/systemjs/-/systemjs-6.12.1.tgz#47cdd23a6ec9f1b01cf5b5f70562c8550da229d3"
+  integrity sha512-hqTN6kW+pN6/qro6G9OZ7ceDQOcYno020zBQKpZQLsJhYTDMCMNfXi/Y8duF5iW+4WWZr42ry0MMkcRGpbwG2A==
 
 tiny-glob@^0.2.6:
   version "0.2.9"
@@ -747,6 +1164,11 @@ typescript@*, typescript@^4.5.4:
   resolved "https://registry.npmmirror.com/typescript/-/typescript-4.6.2.tgz#fe12d2727b708f4eef40f51598b3398baa9611d4"
   integrity sha512-HM/hFigTBHZhLXshn9sN37H085+hQGeJHJ/X7LpBWLID/fbc2acUMfU+lGD98X81sKP+pFa9f0DZmCwB9GnbAg==
 
+util-deprecate@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmmirror.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
+  integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
+
 vite@^2.8.0:
   version "2.8.6"
   resolved "https://registry.npmmirror.com/vite/-/vite-2.8.6.tgz#32d50e23c99ca31b26b8ccdc78b1d72d4d7323d3"
@@ -763,3 +1185,8 @@ wrappy@1:
   version "1.0.2"
   resolved "https://registry.npmmirror.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==
+
+yaml@^1.10.2:
+  version "1.10.2"
+  resolved "https://registry.npmmirror.com/yaml/-/yaml-1.10.2.tgz#2301c5ffbf12b467de8da2333a459e29e7920e4b"
+  integrity sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==

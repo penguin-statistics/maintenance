@@ -12,9 +12,15 @@
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
     "@tsconfig/svelte": "^2.0.1",
+    "@vitejs/plugin-legacy": "^1.7.1",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "postcss-load-config": "^3.1.1",
+    "postcss-preset-env": "^7.4.2",
+    "regenerator-runtime": "^0.13.9",
     "svelte": "^3.44.0",
     "svelte-check": "^2.2.7",
-    "svelte-preprocess": "^4.9.8",
+    "svelte-preprocess": "^4.10.1",
     "tslib": "^2.3.1",
     "typescript": "^4.5.4",
     "vite": "^2.8.0"
