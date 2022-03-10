@@ -12,10 +12,13 @@ export default defineConfig({
     }),
   ],
   build: {
+    cssTarget: "chrome61",
+    cssCodeSplit: false,
     rollupOptions: {
       output: {
         manualChunks: undefined,
       },
     },
   },
+  base: "https://penguin.upyun.galvincdn.com/maintenance/v0/",
 });
