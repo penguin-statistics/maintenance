@@ -2,5 +2,5 @@
     "brand": "Penguin Statistics",
     "title": "Under Maintenance",
     "subtitle": "Database maintenance in progress",
-    "description": "Maintenance started at {startTime}, shall elasting for {elapsingHours} hours and is expected to end at {endTime}. (all times are displayed in your local time zone.)"
+    "description": "Maintenance started at {startTime}, shall elapsing for {elapsingHours} hours and is expected to end at {endTime}. (all times are displayed in your local time zone.)"
 }
