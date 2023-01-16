@@ -4,7 +4,7 @@
 
   const startTime = new Date("2023-01-16T12:00:00-0500");
   const endTime = new Date("2023-01-16T15:00:00-0500");
-  const extendedEndTime = new Date("2023-01-16T18:00:00-0500");
+  const extendedEndTime = new Date("2023-01-16T19:00:00-0500");
 
   // schedule an automatic refresh after the event ends
   const absoluteDelay = (() => {
