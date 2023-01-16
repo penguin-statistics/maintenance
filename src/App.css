@@ -211,12 +211,18 @@ p {
 }
 
 .contact > a {
-  padding: 0.75rem;
+  padding: 0.375rem 0.75rem;
   border-radius: 50%;
+  opacity: 0.5;
+  transition: all 80ms ease-out;
 }
+
+.contact a:hover {
+  opacity: 0.85;
+}
+
 .contact svg {
   height: 2rem;
   width: 2rem;
   color: white;
-  opacity: 0.5;
 }
