@@ -20,5 +20,5 @@ export default defineConfig({
       },
     },
   },
-  base: "https://penguin.upyun.galvincdn.com/maintenance/abec04d/",
+  base: "https://penguin.upyun.galvincdn.com/maintenance/2f3c8d0/",
 });
