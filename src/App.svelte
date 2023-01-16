@@ -4,10 +4,11 @@
 
   const startTime = new Date("2023-01-16T12:00:00-0500");
   const endTime = new Date("2023-01-16T15:00:00-0500");
+  const extendedEndTime = new Date("2023-01-16T18:00:00-0500");
 
   // schedule an automatic refresh after the event ends
   const absoluteDelay = (() => {
-    const delay = endTime.getTime() - Date.now();
+    const delay = extendedEndTime.getTime() - Date.now();
     if (delay < 1000 * 60) {
       return 1000 * 60; // ensure at least 1 minute delay
     }
@@ -36,6 +37,10 @@
       (endTime.getTime() - startTime.getTime()) / 1000 / 60 / 60
     ),
     endTime: endTime.toLocaleString(undefined, dateFormatOptions),
+    extendedEndTime: extendedEndTime.toLocaleString(
+      undefined,
+      dateFormatOptions
+    ),
   };
 </script>
 
@@ -64,7 +69,8 @@
 
     {#each $_("description", { values: descriptionValues }).split("\n") as line}
       <p>
-        {line}
+        <!-- print the raw html value -->
+        {@html line}
       </p>
     {/each}
 
