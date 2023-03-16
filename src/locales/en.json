@@ -1,6 +1,6 @@
 {
-    "brand": "Penguin Statistics",
-    "title": "Under Maintenance",
-    "subtitle": "Database maintenance in progress",
-    "description": "Maintenance started at {startTime}, originally planned to elapse for {elapsingHours} hours.\nDue to unforeseen situations, maintenance is now expected to end at {extendedEndTime} instead of {endTime}. (all times are displayed in your local time zone.)"
+  "brand": "Penguin Statistics",
+  "title": "Under Maintenance",
+  "subtitle": "In progress",
+  "description": "Maintenance started at {startTime}, planned to elapse for {elapsingHours} hours and is expected to end at {endTime}. (all times are displayed in your local time zone.)"
 }

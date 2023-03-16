@@ -2,9 +2,9 @@
   import { _ } from "svelte-i18n";
   import "./App.css";
 
-  const startTime = new Date("2023-01-16T12:00:00-0500");
-  const endTime = new Date("2023-01-16T15:00:00-0500");
-  const extendedEndTime = new Date("2023-01-16T19:00:00-0500");
+  const startTime = new Date("2023-03-17T15:00:00-0700");
+  const endTime = new Date("2023-03-17T18:00:00-0700");
+  const extendedEndTime = new Date("2023-03-17T18:00:00-0700");
 
   // schedule an automatic refresh after the event ends
   const absoluteDelay = (() => {
