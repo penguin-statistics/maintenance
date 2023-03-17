@@ -1,6 +1,6 @@
 {
   "brand": "Penguin Statistics",
-  "title": "Under Maintenance",
-  "subtitle": "In progress",
+  "title": "Maintenance In Progress",
+  "subtitle": "New Version Deploying",
   "description": "Maintenance started at {startTime}, planned to elapse for {elapsingHours} hours and is expected to end at {endTime}. (all times are displayed in your local time zone.)"
 }
