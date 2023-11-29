@@ -2,13 +2,12 @@
   import { _ } from "svelte-i18n";
   import "./App.css";
 
-  const startTime = new Date("2023-05-31T00:00:00+0800");
-  const endTime = new Date("2023-05-31T03:00:00+0800");
-  const extendedEndTime = new Date("2023-05-31T03:00:00+0800");
+  const startTime = new Date("2023-11-29T22:00:00+0800");
+  const endTime = new Date("2023-11-30T03:00:00+0800");
 
   // schedule an automatic refresh after the event ends
   const absoluteDelay = (() => {
-    const delay = extendedEndTime.getTime() - Date.now();
+    const delay = endTime.getTime() - Date.now();
     if (delay < 1000 * 60) {
       return 1000 * 60; // ensure at least 1 minute delay
     }
@@ -37,10 +36,6 @@
       (endTime.getTime() - startTime.getTime()) / 1000 / 60 / 60
     ),
     endTime: endTime.toLocaleString(undefined, dateFormatOptions),
-    extendedEndTime: extendedEndTime.toLocaleString(
-      undefined,
-      dateFormatOptions
-    ),
   };
 </script>
 

@@ -1,6 +1,6 @@
 {
   "brand": "企鹅物流数据统计",
   "title": "维护进行中",
-  "subtitle": "数据库扩容进行中",
+  "subtitle": "数据库维护进行中",
   "description": "维护于 {startTime} 开始，预计维护时长为 {elapsingHours} 小时并预计于 {endTime} 维护完成。（时间均为您的本地时间）"
 }
