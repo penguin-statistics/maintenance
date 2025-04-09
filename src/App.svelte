@@ -2,8 +2,8 @@
   import { _ } from "svelte-i18n";
   import "./App.css";
 
-  const startTime = new Date("2023-11-29T22:00:00+0800");
-  const endTime = new Date("2023-11-30T03:00:00+0800");
+  const startTime = new Date("2025-04-09T22:00:00+0800");
+  const endTime = new Date("2025-04-10T04:00:00+0800");
 
   // schedule an automatic refresh after the event ends
   const absoluteDelay = (() => {
@@ -57,6 +57,17 @@
     <h2>
       <span>{$_("title")}</span>
     </h2>
+
+    <h3>
+      {$_("subtitle")}
+    </h3>
+
+    {#each $_("description", { values: descriptionValues }).split("\n") as line}
+      <p>
+        <!-- print the raw html value -->
+        {@html line}
+      </p>
+    {/each}
 
     <div class="contact">
       <a
