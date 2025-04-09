@@ -58,17 +58,6 @@
       <span>{$_("title")}</span>
     </h2>
 
-    <h3>
-      {$_("subtitle")}
-    </h3>
-
-    {#each $_("description", { values: descriptionValues }).split("\n") as line}
-      <p>
-        <!-- print the raw html value -->
-        {@html line}
-      </p>
-    {/each}
-
     <div class="contact">
       <a
         href="https://twitter.com/penguin_stats"
