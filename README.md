@@ -1,3 +1,21 @@
+# Penguin Statistics maintenance page
+
+Static page served by nginx (`build/nginx.conf`) as the fallback backend when a backend host is put into maintenance mode (`maintenance.enabled` in `applications/backend/values.yaml` of penguin-statistics/manifests).
+
+## Releasing (pushing a tag deploys to production)
+
+Pushing a `v*` tag runs `.github/workflows/build.yml`, which:
+
+1. builds and pushes `ghcr.io/penguin-statistics/maintenance:<tag>`;
+2. creates a GitHub release;
+3. runs manifestbot, which commits `image.tag: <tag>` to `applications/maintenance/values-prod.yaml` directly on the manifests `main` branch (no PR).
+
+The Argo CD Application `maintenance` has automated sync, and the blue/green Rollout auto-promotes, so the new image takes traffic within minutes of the tag push. Do not push a tag while a backend host is in maintenance mode.
+
+Rollback: revert the manifestbot commit in penguin-statistics/manifests (or commit the previous `image.tag`) and let Argo CD sync. Deleting the tag or the GitHub release does not change production.
+
+---
+
 # Svelte + TS + Vite
 
 This template should help get you started developing with Svelte and TypeScript in Vite.
