@@ -1,6 +1,6 @@
 # Penguin Statistics maintenance page
 
-Static page served by nginx (`build/nginx.conf`) as the fallback backend when a backend host is put into maintenance mode (`maintenance.enabled` in `applications/backend/values.yaml` of penguin-statistics/manifests).
+Static page served by Caddy (`build/Caddyfile`) as the fallback backend when a backend host is put into maintenance mode (`maintenance.enabled` in `applications/backend/values.yaml` of penguin-statistics/manifests).
 
 ## Releasing (pushing a tag deploys to production)
 

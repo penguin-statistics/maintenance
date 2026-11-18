@@ -10,17 +10,16 @@ RUN npm ci --no-audit --no-fund
 COPY . .
 RUN npm run build
 
-# Runtime: official nginx 1.30.x stable, pinned by digest.
-# Kept on the official (root-master, listens on :80) image instead of
-# nginx-unprivileged (:8080) so the manifests chart (containerPort/targetPort 80)
-# and every Service/Ingress that falls back to maintenance keep working unchanged.
-FROM nginx:1.30.6-alpine@sha256:47928bf67eb62a1863cb08d9ecb52d3e704304ba614eaee17884204677702951 AS webserver
+# Runtime: Caddy (the version of the box's edge Caddy), pinned by digest. It serves the page on :80, without TLS,
+# HTTP/2 or HTTP/3: the box's edge Caddy terminates TLS in front of it. Runs as an unprivileged user; the binary has
+# cap_net_bind_service for :80.
+FROM caddy:2.11.7-alpine@sha256:e70b164da81ef698b3ad19af799ea6086ce6d9e48ed4079eb9fe26f6fbf14ee5 AS webserver
 
-COPY --from=webbuilder /build/dist /usr/share/nginx/html
-COPY --from=webbuilder /build/build/nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=webbuilder /build/dist /srv
+COPY --from=webbuilder /build/build/Caddyfile /etc/caddy/Caddyfile
+RUN ["caddy", "validate", "--config", "/etc/caddy/Caddyfile", "--adapter", "caddyfile"]
 
+USER 65534:65534
 EXPOSE 80
 
-RUN ["nginx", "-t"]
-
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["caddy", "run", "--config", "/etc/caddy/Caddyfile", "--adapter", "caddyfile"]

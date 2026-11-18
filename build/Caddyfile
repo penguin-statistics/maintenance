@@ -1,0 +1,37 @@
+# The image's web server, on :80 behind the box's edge Caddy (which terminates TLS and forwards plain HTTP/1.1):
+#   1. /PenguinStats... and /api...: a 503 with a JSON body, the API's error shape, for the clients of the API;
+#   2. anything else: the page (dist/, at /srv), a file of it or else index.html.
+# Every answer carries the no-cache and noindex headers below and X-Penguin-Exception: type=maintenance.
+{
+	admin off
+	persist_config off
+	auto_https off
+	servers {
+		# plain HTTP/1.1 only: no h2c (the edge speaks HTTP/1.1 to it) and no HTTP/3 (that needs TLS)
+		protocols h1
+	}
+}
+
+:80 {
+	root * /srv
+
+	header {
+		Cache-Control "no-cache, no-store, must-revalidate, max-age=0"
+		Pragma no-cache
+		Expires 0
+		robots "noindex, nofollow"
+		X-Penguin-Exception type=maintenance
+	}
+
+	# prefixes, case-sensitive like nginx's (the path matcher ignores case)
+	@api path_regexp ^/(PenguinStats|api)
+	handle @api {
+		header Content-Type application/json
+		respond `{"code": "MAINTENANCE", "message": "Service temporarily unavailable: maintenance in progress"}` 503
+	}
+
+	handle {
+		try_files {path} {path}/ /index.html
+		file_server
+	}
+}
